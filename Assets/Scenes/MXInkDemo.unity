@@ -2989,6 +2989,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1263304889}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &570573845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3400360556743570226, guid: 39b1f6809997e91409f2b07e4d498857,
+    type: 3}
+  m_PrefabInstance: {fileID: 6807591603364627304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &570573848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570573845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3522ea0bc125304a8477960fbba235c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mxInkModel: {fileID: 3145674524903477972}
+  tip: {fileID: 8157181593327271383}
+  clusterFront: {fileID: 4940724688267456934}
+  clusterMiddle: {fileID: 3909473538516424973}
+  clusterBack: {fileID: 8372733141058486031}
+  leftController: {fileID: 670005265}
+  rightController: {fileID: 79059445}
+  activeColor: {r: 0, g: 1, b: 0, a: 1}
+  doubleTapActiveColor: {r: 0, g: 1, b: 1, a: 1}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &578072542
 GameObject:
   m_ObjectHideFlags: 0
@@ -11081,6 +11109,24 @@ Transform:
   - {fileID: 578072543}
   m_Father: {fileID: 718810149}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3145674524903477972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2714323817815093130, guid: 39b1f6809997e91409f2b07e4d498857,
+    type: 3}
+  m_PrefabInstance: {fileID: 6807591603364627304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3909473538516424973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1715202120953362971, guid: 39b1f6809997e91409f2b07e4d498857,
+    type: 3}
+  m_PrefabInstance: {fileID: 6807591603364627304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4940724688267456934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 39205826098946254, guid: 39b1f6809997e91409f2b07e4d498857,
+    type: 3}
+  m_PrefabInstance: {fileID: 6807591603364627304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6807591603364627304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11144,21 +11190,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: MKInkStylus
       objectReference: {fileID: 0}
-    - target: {fileID: 5543489712088002185, guid: 39b1f6809997e91409f2b07e4d498857,
-        type: 3}
-      propertyPath: leftController
-      value: 
-      objectReference: {fileID: 670005265}
-    - target: {fileID: 5543489712088002185, guid: 39b1f6809997e91409f2b07e4d498857,
-        type: 3}
-      propertyPath: rightController
-      value: 
-      objectReference: {fileID: 79059445}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3400360556743570226, guid: 39b1f6809997e91409f2b07e4d498857,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 570573848}
   m_SourcePrefab: {fileID: 100100000, guid: 39b1f6809997e91409f2b07e4d498857, type: 3}
+--- !u!1 &8157181593327271383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7828565786743472430, guid: 39b1f6809997e91409f2b07e4d498857,
+    type: 3}
+  m_PrefabInstance: {fileID: 6807591603364627304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8372733141058486031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4739811498114811529, guid: 39b1f6809997e91409f2b07e4d498857,
+    type: 3}
+  m_PrefabInstance: {fileID: 6807591603364627304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

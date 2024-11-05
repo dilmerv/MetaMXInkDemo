@@ -296,7 +296,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 143190835548820570}
-  - component: {fileID: 5543489712088002185}
   m_Layer: 0
   m_Name: MKInkStylus
   m_TagString: Untagged
@@ -320,28 +319,6 @@ Transform:
   - {fileID: 3019067070010912722}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5543489712088002185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3400360556743570226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3522ea0bc125304a8477960fbba235c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mxInkModel: {fileID: 2714323817815093130}
-  tip: {fileID: 7828565786743472430}
-  clusterFront: {fileID: 39205826098946254}
-  clusterMiddle: {fileID: 1715202120953362971}
-  clusterBack: {fileID: 4739811498114811529}
-  leftController: {fileID: 0}
-  rightController: {fileID: 0}
-  activeColor: {r: 0, g: 1, b: 0, a: 1}
-  doubleTapActiveColor: {r: 0, g: 1, b: 1, a: 1}
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4739811498114811529
 GameObject:
   m_ObjectHideFlags: 0
