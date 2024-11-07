@@ -16,4 +16,4 @@ This repository showcases the use of MX Ink with the Meta Core SDK for Unity. It
 |<img src="https://github.com/dilmerv/MetaMXInkDemo/blob/master/Docs/images/MXInkDemo_2.gif" width="560">|
 
 ## Logitech Resources
-Logitech did an amazing job in providing detail docs as well as [Unity packages & samples](https://logitech.github.io/mxink/UnityIntegration.html). There're also great resources for other platforms [here](https://logitech.github.io/mxink/).
+Logitech did an amazing job in providing detailed docs, [Unity packages & samples](https://logitech.github.io/mxink/UnityIntegration.html). There're also excellent resources for other platforms [here](https://logitech.github.io/mxink).
